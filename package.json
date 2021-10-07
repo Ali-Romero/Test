@@ -33,6 +33,7 @@
   "author": "Ali-romero",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "svg4everybody": "^2.1.9"
   }
 }

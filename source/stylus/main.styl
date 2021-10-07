@@ -1,10 +1,20 @@
 @import 'common/variables'
 @import 'common/*'
+@import 'components/*'
+
+@font-face
+  font-family: "Montserrat"
+  src: url('../fonts/Montserrat-Regular.woff'), url('../fonts/Montserrat-Regular.woff2')
+  font-display: swap
 
 .page
+  flex: 1 1 auto
   display: flex
   flex-direction: column
-  min-height: 100%
+  min-height: 100vh
+
+  &__header
+    background: linear-gradient(104deg, #100c09 0%, #362d24 104%)
 
   &__content
-    flex: 1
+    flex: 1 0 auto
